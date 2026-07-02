@@ -4,12 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>T-Bone Steakhouse · Speisekarte — [M]EAT &amp; STAY HOTEL Haar</title>
-  <meta name="description" content="Die Speisekarte des T-Bone Steakhouse: argentinisches Angus-Beef vom Lavasteingrill, Vorspeisen, Beilagen und Weine. In Haar bei München." />
-  <meta name="theme-color" content="#1a1512" />
+  <meta name="description" content="Das T-Bone Steakhouse in Haar bei München: argentinisches Angus-Beef, Dry-Aged mindestens 28 Tage, über offenem Feuer gegrillt. Speisekarte, Öffnungszeiten &amp; Reservierung." />
+  <meta name="theme-color" content="#241812" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@400;500;600;700&family=Caveat:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
@@ -20,140 +20,102 @@
       <span class="brand__sub">Hotel · T-Bone Steakhouse</span>
     </a>
     <nav class="nav__links" aria-label="Hauptnavigation">
-      <a href="steakhouse.html">Steakhouse</a>
-      <a href="hotel.html">Zimmer &amp; Suiten</a>
-      <a href="index.html#genuss">Genuss</a>
+      <a href="zimmer.html">Zimmer</a>
+      <a href="steakhouse.html" class="active">Steakhouse</a>
+      <a href="tagungen.html">Tagungen</a>
+      <a href="grillseminare.html">Grillseminare</a>
       <a href="kontakt.html">Kontakt</a>
     </nav>
-    <div class="nav__cta">
-      <a class="btn btn--primary" href="kontakt.html">Reservieren</a>
-    </div>
+    <div class="nav__cta"><a class="btn btn--rust" href="kontakt.html">Reservieren</a></div>
     <button class="nav__toggle" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
   </header>
   <div class="nav__menu">
+    <a href="zimmer.html">Zimmer</a>
     <a href="steakhouse.html">Steakhouse</a>
-    <a href="hotel.html">Zimmer &amp; Suiten</a>
-    <a href="index.html#genuss">Genuss</a>
+    <a href="tagungen.html">Tagungen</a>
+    <a href="grillseminare.html">Grillseminare</a>
     <a href="kontakt.html">Kontakt</a>
-    <a class="btn btn--primary" href="kontakt.html">Reservieren</a>
+    <a class="btn btn--rust" href="kontakt.html">Reservieren</a>
   </div>
 
   <!-- PAGE HERO -->
   <section class="pagehero">
     <div class="pagehero__media">
-      <img src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=2000&q=80" alt="Angerichtetes Steak vom Grill" />
+      <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=2000&q=80" alt="Steak über offener Flamme" />
     </div>
     <div class="container pagehero__inner">
-      <span class="eyebrow" style="color:var(--gold);">T-Bone Steakhouse</span>
-      <h1>Die Speisekarte</h1>
-      <p class="lead">Argentinisches Angus-Beef, offener Grill, heißer Lavastein. Steaks auf den Punkt — dazu ehrliche Vorspeisen, Beilagen und Weine.</p>
+      <span class="eyebrow">T-Bone Steakhouse</span>
+      <h1>Vom Feuer auf den Teller.</h1>
+      <p class="lead">Argentinisches Angus-Beef, mindestens 28 Tage am Knochen gereift und über offenem Feuer gegrillt. Ehrliche Küche, gemütliche Atmosphäre — seit über 20 Jahren.</p>
     </div>
   </section>
 
-  <!-- INTRO -->
+  <!-- CRAFT -->
   <section class="section">
     <div class="container">
       <div class="section-head" data-reveal>
         <span class="eyebrow">Unser Handwerk</span>
-        <h2 class="section-title">Vom Rind bis zum Teller.</h2>
-        <p class="lead">Wir arbeiten mit ausgesuchtem Angus-Rind aus Argentinien — bekannt für feine Marmorierung und intensiven Geschmack. Jedes Steak wird über offener Flamme auf glühendem Lavastein gegrillt und exakt in Ihrer Wunsch-Garstufe serviert: von <em>rare</em> bis <em>well done</em>.</p>
+        <h2 class="section-title">Gutes Fleisch braucht nur Zeit und Feuer.</h2>
+        <p class="lead">Wir arbeiten mit ausgesuchtem <strong>argentinischem Angus-Rind</strong> — bekannt für seine feine Marmorierung und sein intensives Aroma. Ein ganzes Roastbeef reift mit Filet am Knochen <strong>mindestens 28 Tage</strong> im Dry Ager. So wird das Steak butterzart und bekommt sein typisches, nussiges Aroma. Gegrillt wird über offenem Feuer — genau auf Ihre Wunsch-Garstufe.</p>
+      </div>
+      <div class="facts" data-reveal>
+        <div class="fact"><div class="n">28+</div><div class="l">Tage gereift</div></div>
+        <div class="fact"><div class="n">100 %</div><div class="l">argent. Angus</div></div>
+        <div class="fact"><div class="n">180–350</div><div class="l">Gramm Cuts</div></div>
+        <div class="fact"><div class="n">17–23</div><div class="l">Uhr geöffnet</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="section section--sand">
+    <div class="container">
+      <div class="section-head center" data-reveal>
+        <span class="eyebrow">Die Speisekarte</span>
+        <h2 class="section-title">Was auf den Grill kommt.</h2>
+        <p class="lead center">Alle Steaks servieren wir mit einer Beilage nach Wahl und hausgemachter Sauce.<br />Größen: <strong>Lady Size</strong> 180 / 220 g · <strong>Men Size</strong> 350 g.</p>
       </div>
 
-      <p class="lead" style="max-width:70ch;margin-bottom:2.5rem;" data-reveal>
-        <strong>Größen:</strong> Unsere Cuts gibt es in <strong>Lady Size</strong> (180 g &amp; 220 g) und <strong>Men Size</strong> (350 g). Alle Steaks servieren wir mit einer Beilage nach Wahl und hausgemachter Sauce. Preise verstehen sich als Richtwerte — die aktuelle Karte finden Sie im Restaurant.
-      </p>
-
-      <!-- MENU -->
       <div class="menu-cols">
         <div>
-          <!-- Vorspeisen -->
           <div class="menu-group" data-reveal>
-            <h3>Vorspeisen <small>Antipasti</small></h3>
-            <div class="menu-item">
-              <h4>Bruschetta</h4><span class="dots"></span><span class="price">5,20 €</span>
-              <p>Geröstetes Brot mit frischen Tomaten, Knoblauch, Basilikum &amp; Olivenöl. <span class="veg">vegetarisch</span></p>
-            </div>
-            <div class="menu-item">
-              <h4>Tatar vom argentinischen Rinderfilet</h4><span class="dots"></span><span class="price">14,50 €</span>
-              <p>Handgeschnitten, klassisch abgeschmeckt, mit geröstetem Brot.</p>
-            </div>
-            <div class="menu-item">
-              <h4>Carpaccio vom Rind</h4><span class="dots"></span><span class="price">12,50 €</span>
-              <p>Hauchdünn, mit Parmesan, Rucola, Pinienkernen &amp; Olivenöl.</p>
-            </div>
-            <div class="menu-item">
-              <h4>Gegrillte Garnelen</h4><span class="dots"></span><span class="price">13,90 €</span>
-              <p>In Knoblauch-Kräuterbutter, mit Weißbrot.</p>
-            </div>
+            <h3>Vorspeisen <small>zum Start</small></h3>
+            <div class="menu-item"><h4>Bruschetta</h4><span class="price">5,20 €</span><p>Geröstetes Brot mit frischen Tomaten, Knoblauch &amp; Basilikum. <span class="veg">vegetarisch</span></p></div>
+            <div class="menu-item"><h4>Tatar vom argentinischen Rinderfilet</h4><span class="price">14,50 €</span><p>Handgeschnitten, klassisch abgeschmeckt, mit geröstetem Brot.</p></div>
+            <div class="menu-item"><h4>Carpaccio vom Rind</h4><span class="price">12,50 €</span><p>Hauchdünn, mit Parmesan, Rucola &amp; Pinienkernen.</p></div>
+            <div class="menu-item"><h4>Gegrillte Garnelen</h4><span class="price">13,90 €</span><p>In Knoblauch-Kräuterbutter, mit Weißbrot.</p></div>
           </div>
-
-          <!-- Salate -->
           <div class="menu-group" data-reveal>
-            <h3>Salate <small>Fresh</small></h3>
-            <div class="menu-item">
-              <h4>Gemischter Blattsalat</h4><span class="dots"></span><span class="price">6,90 €</span>
-              <p>Marktfrisch, mit Hausdressing. <span class="veg">vegetarisch</span></p>
-            </div>
-            <div class="menu-item">
-              <h4>Caesar Salad mit Steakstreifen</h4><span class="dots"></span><span class="price">14,90 €</span>
-              <p>Römersalat, Parmesan, Croutons, gegrillte Rinderstreifen.</p>
-            </div>
+            <h3>Salate <small>frisch &amp; knackig</small></h3>
+            <div class="menu-item"><h4>Gemischter Blattsalat</h4><span class="price">6,90 €</span><p>Marktfrisch, mit Hausdressing. <span class="veg">vegetarisch</span></p></div>
+            <div class="menu-item"><h4>Caesar Salad mit Steakstreifen</h4><span class="price">14,90 €</span><p>Römersalat, Parmesan, Croutons, gegrillte Rinderstreifen.</p></div>
           </div>
         </div>
 
         <div>
-          <!-- Steaks -->
           <div class="menu-group" data-reveal>
-            <h3>Vom Lavasteingrill <small>Steaks</small></h3>
-            <div class="menu-item">
-              <h4>Rumpsteak</h4><span class="dots"></span><span class="price">ab 24,90 €</span>
-              <p>Kräftig im Geschmack, mit feinem Fettrand. Lady 220 g / Men 350 g.</p>
-            </div>
-            <div class="menu-item">
-              <h4>Rinderfilet</h4><span class="dots"></span><span class="price">ab 29,90 €</span>
-              <p>Das zarteste Stück — mager und butterweich. Lady 180 g / Men 350 g.</p>
-            </div>
-            <div class="menu-item">
-              <h4>Dry-Aged Rib-Eye</h4><span class="dots"></span><span class="price">ab 32,90 €</span>
-              <p>Am Knochen gereift, marmoriert &amp; aromatisch. Der Klassiker.</p>
-            </div>
-            <div class="menu-item">
-              <h4>T-Bone Steak</h4><span class="dots"></span><span class="price">ab 34,90 €</span>
-              <p>Filet und Rumpsteak in einem — unser Namensgeber. 500 g+.</p>
-            </div>
+            <h3>Vom Feuer <small>unsere Steaks</small></h3>
+            <div class="menu-item"><h4>Rumpsteak</h4><span class="price">ab 24,90 €</span><p>Kräftig im Geschmack, mit feinem Fettrand.</p></div>
+            <div class="menu-item"><h4>Rinderfilet</h4><span class="price">ab 29,90 €</span><p>Das zarteste Stück — mager und butterweich.</p></div>
+            <div class="menu-item"><h4>Dry-Aged Rib-Eye</h4><span class="price">ab 32,90 €</span><p>Am Knochen gereift, marmoriert &amp; aromatisch.</p></div>
+            <div class="menu-item"><h4>T-Bone Steak</h4><span class="price">ab 34,90 €</span><p>Filet und Roastbeef in einem — unser Namensgeber.</p></div>
           </div>
-
-          <!-- Beilagen & Saucen -->
           <div class="menu-group" data-reveal>
-            <h3>Beilagen &amp; Saucen <small>Sides</small></h3>
-            <div class="menu-item">
-              <h4>Trüffel-Pommes</h4><span class="dots"></span><span class="price">6,50 €</span>
-              <p>Knusprig, mit Trüffelöl &amp; Parmesan. <span class="veg">vegetarisch</span></p>
-            </div>
-            <div class="menu-item">
-              <h4>Ofenkartoffel · Grillgemüse · Kräuterbutter</h4><span class="dots"></span><span class="price">je 4,50 €</span>
-            </div>
-            <div class="menu-item">
-              <h4>Pfeffer- · Kräuter- · BBQ-Sauce</h4><span class="dots"></span><span class="price">je 2,50 €</span>
-            </div>
+            <h3>Beilagen &amp; Saucen <small>das gewisse Extra</small></h3>
+            <div class="menu-item"><h4>Trüffel-Pommes</h4><span class="price">6,50 €</span><p>Knusprig, mit Trüffelöl &amp; Parmesan. <span class="veg">vegetarisch</span></p></div>
+            <div class="menu-item"><h4>Ofenkartoffel · Grillgemüse · Kräuterbutter</h4><span class="price">je 4,50 €</span></div>
+            <div class="menu-item"><h4>Pfeffer- · Kräuter- · BBQ-Sauce</h4><span class="price">je 2,50 €</span></div>
           </div>
-
-          <!-- Wein & Bar -->
           <div class="menu-group" data-reveal>
-            <h3>Wein &amp; Bar <small>Drinks</small></h3>
-            <div class="menu-item">
-              <h4>Argentinischer Malbec, 0,2 l</h4><span class="dots"></span><span class="price">7,50 €</span>
-              <p>Der klassische Begleiter zum Steak.</p>
-            </div>
-            <div class="menu-item">
-              <h4>Offene Weiß- &amp; Rotweine</h4><span class="dots"></span><span class="price">ab 5,50 €</span>
-            </div>
+            <h3>Wein &amp; Bar <small>zum Steak</small></h3>
+            <div class="menu-item"><h4>Argentinischer Malbec, 0,2 l</h4><span class="price">7,50 €</span><p>Der klassische Begleiter.</p></div>
+            <div class="menu-item"><h4>Offene Weiß- &amp; Rotweine</h4><span class="price">ab 5,50 €</span></div>
           </div>
         </div>
       </div>
 
-      <p class="lead" style="margin-top:2.5rem;font-size:.95rem;" data-reveal>
-        Alle Preise in Euro, inkl. MwSt. Änderungen &amp; saisonale Gerichte vorbehalten. Informationen zu Allergenen und Zusatzstoffen erhalten Sie gerne bei unserem Service-Team.
+      <p class="lead center" style="margin-top:2.4rem;font-size:.9rem;color:var(--cocoa-2);" data-reveal>
+        Alle Preise in Euro, inkl. MwSt. Auswahl &amp; saisonale Gerichte können abweichen. Informationen zu Allergenen erhalten Sie gerne bei unserem Service-Team.
       </p>
     </div>
   </section>
@@ -161,14 +123,14 @@
   <!-- RESERVE CTA -->
   <section class="section reserve">
     <div class="reserve__media">
-      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=2000&q=80" alt="Atmosphäre im Steakhouse" />
+      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=2000&q=80" alt="Gemütliche Atmosphäre im Steakhouse" />
     </div>
     <div class="container" data-reveal>
-      <span class="eyebrow" style="color:var(--gold);">Guten Appetit</span>
+      <span class="eyebrow">Guten Appetit</span>
       <h2 class="section-title">Sichern Sie sich Ihren Tisch.</h2>
       <p class="lead">Täglich von 17:00 bis 23:00 Uhr. Reservierung empfohlen.</p>
       <div class="reserve__actions">
-        <a class="btn btn--primary" href="tel:+498942079463">+49 (0)89 420 794 63</a>
+        <a class="btn btn--rust" href="tel:+498942079463">+49 (0)89 420 794 63</a>
         <a class="btn btn--light" href="kontakt.html">Anfrage senden</a>
       </div>
     </div>
@@ -183,27 +145,27 @@
             <span class="brand__mark">[M]<b>EAT</b> &amp; STAY</span>
             <span class="brand__sub">Hotel · T-Bone Steakhouse</span>
           </a>
-          <p>Steakhouse &amp; Boutique-Hotel in Haar bei München. Argentinisches Angus-Beef vom Lavasteingrill — und ein gemütliches Bett gleich nebenan.</p>
+          <p>Familiengeführtes Hotel &amp; Steakhouse in Haar bei München. Argentinisches Dry-Aged-Beef vom Feuer — und ein gemütliches Bett gleich nebenan.</p>
           <div class="socials">
-            <a href="https://www.facebook.com/tbonesteakhousemuenchen/" aria-label="Facebook" target="_blank" rel="noopener">f</a>
-            <a href="#" aria-label="Instagram">◎</a>
+            <a href="https://www.facebook.com/meatandstayhotel/" aria-label="Facebook" target="_blank" rel="noopener">f</a>
+            <a href="https://www.facebook.com/tbonesteakhousemuenchen/" aria-label="Facebook Steakhouse" target="_blank" rel="noopener">t</a>
           </div>
         </div>
         <div>
           <h5>Entdecken</h5>
           <ul>
+            <li><a href="zimmer.html">Zimmer</a></li>
             <li><a href="steakhouse.html">Steakhouse</a></li>
-            <li><a href="hotel.html">Zimmer &amp; Suiten</a></li>
-            <li><a href="index.html#galerie">Galerie</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="tagungen.html">Tagungen</a></li>
+            <li><a href="grillseminare.html">Grillseminare</a></li>
           </ul>
         </div>
         <div>
           <h5>Öffnungszeiten</h5>
           <ul>
-            <li>Mo – So</li>
-            <li>17:00 – 23:00 Uhr</li>
-            <li>Hotel: 24 h Anreise n. Absprache</li>
+            <li>Restaurant</li>
+            <li>Mo – So · 17:00 – 23:00</li>
+            <li>Hotel-Anreise n. Absprache</li>
           </ul>
         </div>
         <div>
@@ -217,8 +179,8 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© <span data-year>2026</span> [M]EAT &amp; STAY HOTEL · T-Bone Steakhouse</span>
-        <span><a href="kontakt.html#impressum">Impressum</a> · <a href="kontakt.html#datenschutz">Datenschutz</a></span>
+        <span>© <span data-year>2026</span> [M]EAT &amp; STAY HOTEL · T-Bone Steakhouse Karg Hotel und Gastronomie GmbH</span>
+        <span><a href="kontakt.html#impressum">Impressum</a> · <a href="kontakt.html#datenschutz">Datenschutz</a> · <a href="kontakt.html#agb">AGB</a></span>
       </div>
     </div>
   </footer>
