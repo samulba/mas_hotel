@@ -11,9 +11,10 @@ Der Markenname bringt das Konzept auf den Punkt: **[M]EAT &amp; STAY** — verde
 man das *M*, bleibt *EAT &amp; STAY*. Hotel, Restaurant, Tagungen und
 Grillseminare als ein Erlebnis unter einem Dach.
 
-Design-Richtung: **warm &amp; handwerklich** — Creme-/Sandtöne, Espresso-Braun,
-Rostrot-Akzent, dezente Papier-Textur, Stempel-/Handschrift-Elemente. Serifen-
-Headlines (*Fraunces*), klare Sans (*Inter*), handschriftliche Akzente (*Caveat*).
+Design-Richtung: **monochrom &amp; elegant** — Off-White (`#f6f5f2`) und Anthrazit
+(`#1b1b1a`) mit sparsam eingesetztem Bordeaux-Akzent (`#7a2233`). Feine Linien,
+viel Weißraum, ruhige Typografie: Serifen-Headlines (*Fraunces*) und klare Sans
+(*Inter*). Reduziert und hochwertig, ohne verspielte Elemente.
 
 ## Seiten
 
