@@ -170,6 +170,9 @@ em { font-style: italic; }
 .nav__links a.active::after { width: 100%; }
 .nav__cta { display: flex; align-items: center; }
 
+/* Mobile overlay menu — hidden on desktop, shown only in the mobile media query */
+.nav__menu { display: none; }
+
 .nav__toggle { display: none; background: none; border: 0; width: 30px; height: 22px; position: relative; z-index: 101; }
 .nav__toggle span { position: absolute; left: 0; height: 2px; width: 100%; background: var(--paper); transition: transform .35s var(--ease), opacity .3s, background .4s; }
 .nav.scrolled .nav__toggle span { background: var(--espresso); }
@@ -183,7 +186,7 @@ body.menu-open .nav__toggle span:nth-child(3) { transform: translateY(-10px) rot
 
 /* ------------------------------------------------------------------ Hero */
 .hero { position: relative; min-height: 100svh; display: flex; align-items: flex-end; color: var(--paper); overflow: hidden; }
-.hero__media { position: absolute; inset: 0; z-index: -2; }
+.hero__media { position: absolute; inset: 0; z-index: -2; background: var(--roast); }
 .hero__media img { width: 100%; height: 100%; object-fit: cover; }
 .hero__media::after {
   content: ""; position: absolute; inset: 0;
@@ -237,7 +240,7 @@ body.menu-open .nav__toggle span:nth-child(3) { transform: translateY(-10px) rot
 .offer {
   position: relative; display: flex; flex-direction: column; justify-content: flex-end;
   min-height: 360px; padding: 1.6rem; border-radius: var(--radius-lg); overflow: hidden; color: var(--paper);
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-sm); background: var(--roast);
 }
 .offer img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; transition: transform .7s var(--ease); }
 .offer::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(36,24,18,.15), rgba(36,24,18,.85)); }
@@ -318,7 +321,7 @@ body.menu-open .nav__toggle span:nth-child(3) { transform: translateY(-10px) rot
 
 /* --------------------------------------------------------------- Reserve */
 .reserve { position: relative; color: var(--paper); text-align: center; overflow: hidden; }
-.reserve__media { position: absolute; inset: 0; z-index: -2; }
+.reserve__media { position: absolute; inset: 0; z-index: -2; background: var(--roast); }
 .reserve__media img { width: 100%; height: 100%; object-fit: cover; }
 .reserve__media::after { content: ""; position: absolute; inset: 0; background: rgba(36,24,18,.76); }
 .reserve .eyebrow { color: var(--ochre); }
@@ -342,7 +345,7 @@ body.menu-open .nav__toggle span:nth-child(3) { transform: translateY(-10px) rot
 
 /* -------------------------------------------------------- Sub page hero */
 .pagehero { position: relative; min-height: 60vh; display: flex; align-items: flex-end; color: var(--paper); overflow: hidden; }
-.pagehero__media { position: absolute; inset: 0; z-index: -2; }
+.pagehero__media { position: absolute; inset: 0; z-index: -2; background: var(--roast); }
 .pagehero__media img { width: 100%; height: 100%; object-fit: cover; }
 .pagehero__media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(36,24,18,.4), rgba(36,24,18,.85)); }
 .pagehero__inner { padding-bottom: clamp(2.5rem,5vw,4rem); padding-top: 9rem; }
